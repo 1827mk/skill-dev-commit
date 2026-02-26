@@ -1,0 +1,6 @@
+{
+  "name": "dev-commit",
+  "version": "1.0.0",
+  "description": "Auto-generate conventional commit messages from staged changes with preview before committing.",
+  "skills": ["."]
+}
