@@ -1,7 +1,7 @@
 ---
 name: dev-commit
 description: Analyze staged git changes and generate a conventional commit message with preview before committing. Use when user runs /dev-commit or asks to commit with an auto-generated message. Commits ONLY staged files — never runs git add automatically.
-allowed-tools: Bash(git *:*)
+user-invokable: true
 ---
 
 # Dev Commit
