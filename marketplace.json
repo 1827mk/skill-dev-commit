@@ -1,0 +1,14 @@
+{
+  "name": "dev-commit",
+  "version": "1.0.0",
+  "description": "Auto-generate conventional commit messages from staged changes with preview. Commits only what you have explicitly staged.",
+  "author": "1827mk",
+  "repository": "https://github.com/1827mk/skill-dev-commit",
+  "plugins": [
+    {
+      "name": "dev-commit",
+      "description": "Generate conventional commit messages from staged changes only. Use /dev-commit after git add.",
+      "path": "."
+    }
+  ]
+}
