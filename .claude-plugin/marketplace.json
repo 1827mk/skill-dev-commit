@@ -1,13 +1,19 @@
 {
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "skill-dev-commit",
+  "description": "Auto-generate conventional commit messages from staged changes with preview.",
   "owner": {
     "name": "1827mk"
   },
   "plugins": [
     {
       "name": "dev-commit",
-      "source": "https://github.com/1827mk/skill-dev-commit",
-      "description": "Auto-generate conventional commit messages from staged changes with preview. Never runs git add automatically."
+      "source": "./plugins/dev-commit",
+      "description": "Generate conventional commit messages from staged changes only. Never runs git add automatically.",
+      "version": "1.0.0",
+      "author": {
+        "name": "1827mk"
+      }
     }
   ]
 }
