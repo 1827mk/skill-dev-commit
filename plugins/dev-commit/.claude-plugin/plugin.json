@@ -1,5 +1,5 @@
 {
   "name": "dev-commit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generate conventional commit messages from staged changes only. Never runs git add automatically."
 }
