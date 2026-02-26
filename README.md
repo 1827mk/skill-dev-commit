@@ -23,7 +23,7 @@ Claude Code skill ที่ generate conventional commit message จาก stage
 ```bash
 mkdir -p ~/.claude/skills/dev-commit
 curl -o ~/.claude/skills/dev-commit/SKILL.md \
-  https://raw.githubusercontent.com/1827mk/skill-dev-commit/main/.claude/skills/dev-commit/SKILL.md
+  https://raw.githubusercontent.com/1827mk/skill-dev-commit/refs/heads/main/SKILL.md
 ```
 
 ## Usage
