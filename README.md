@@ -13,10 +13,7 @@ Claude Code skill that auto-generates conventional commit messages from staged c
 
 ```bash
 mkdir -p ~/.claude/skills/dev-commit
-mv ~/.claude/skills/SKILL.md ~/.claude/skills/dev-commit/SKILL.md
-mv ~/.claude/skills/README.md ~/.claude/skills/dev-commit/README.md
-mv ~/.claude/skills/marketplace.json ~/.claude/skills/dev-commit/marketplace.json
-mv ~/.claude/skills/plugin.json ~/.claude/skills/dev-commit/plugin.json
+mv ~/Downloads/SKILL.md ~/.claude/skills/dev-commit/SKILL.md
 ```
 
 ## Install Manually — via curl
@@ -24,7 +21,7 @@ mv ~/.claude/skills/plugin.json ~/.claude/skills/dev-commit/plugin.json
 ```bash
 mkdir -p ~/.claude/skills/dev-commit
 curl -o ~/.claude/skills/dev-commit/SKILL.md \
-  https://raw.githubusercontent.com/1827mk/skill-dev-commit/refs/heads/main/SKILL.md
+  https://raw.githubusercontent.com/1827mk/skill-dev-commit/refs/heads/main/skills/dev-commit/SKILL.md
 ```
 
 ## Usage
